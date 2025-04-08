@@ -9,7 +9,6 @@ padding: 1%;
 color: white;
 background-color: rgb(39, 39, 39);
 box-sizing: border-box;
-display: flex;
 justify-content: center;
 }
 header span{
@@ -21,6 +20,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
     align-items: center;
     padding: 1rem;
     gap: 20px;
