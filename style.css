@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+width: 100%;
+padding: 1%;
+color: white;
+background-color: rgb(39, 39, 39);
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+}
+header span{
+    font-weight: 200;
+    font-size: large;
+    font-family: "Anton";
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Origem{
+
+    width: 100%;
+    display: block;
+
+}
+.Brasil{
+    width: 100%;
+    display: block;
+
+}
+body{
+    width: 100%;
+    max-width: 100vw;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Sora";
+    background-color: black;
+}
+body ul{color: white;
+
+}
+
+body p{
+    margin: 1%;
+    color: white;
+}
+body h2{
+    margin: 1%;
+
+        color: rgb(119, 121, 94);
+}
+img{
+    margin: 1%;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.usuario img{ 
+width: 50px;
+height: 50px;
+margin-right: 10px;
+}
+.usuario .info{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+}
+.usuario{
+margin: 5px;
+display: flex;
+justify-content: flex-start;
+background-color: rgb(41, 41, 41);
+color: aliceblue;
+max-width: 100%;
+width: 400px;
+height: 100px;
+padding: 7px;
+}
+.usuarios{
+    margin-right: 15%;
+    padding: 20px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+.container-usuarios h2{
+    margin-left: 7%;
+    color: aliceblue;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(141, 136, 65);
+}
