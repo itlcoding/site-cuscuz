@@ -9,6 +9,7 @@ padding: 1%;
 color: white;
 background-color: rgb(39, 39, 39);
 box-sizing: border-box;
+display: flex;
 justify-content: center;
 }
 header span{
